@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Selelo — Computer Science Student</title>
+    <meta name="description" content="Portfolio of Selelo — Computer Science student building software with Java, Spring Boot, SQL and modern web technologies." />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  </head>
+
+  <body>
+    <!-- NAV -->
+    <nav id="nav">
+      <div class="nav-inner">
+        <a href="#home" class="logo"><img src="image.jpg" style="width:90px;height:90px;border-radius:100%;overflow:hidden;border:4px solid yellow;" alt="my image" width="50" height="50"></a>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#certs">Certifications</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <button id="themeToggle" aria-label="Toggle theme">🌙</button>
+      </div>
+    </nav>
+
+    <!-- HERO -->
+    <header id="home" class="hero">
+      <div class="hero-glow"></div>
+      <div class="container hero-grid reveal">
+        <div>
+          <p class="eyebrow">Greetings, Welcome!</p>
+          <h1 class="hero-name">SELELO SERUMULA</h1>
+          <h2 class="hero-title">
+            <span id="typed"></span><span class="caret">|</span>
+          </h2>
+          <p class="hero-stack">Java · CSS · JavaScript · Web Development</p>
+          <p class="hero-desc">Building software solutions that serve African users — from desktop systems to modern web apps.</p>
+          <div class="cta-row">
+            <a href="cv.html" download class="btn btn-primary" id="downloadCv">⬇ Download CV</a>
+            <a href="#contact" class="btn btn-ghost">✉ Contact Me</a>
+          </div>
+        </div>
+        <div class="avatar-wrap">
+          <div class="avatar"><img src="image.jpg" width="100" height="100" alt="my photo"></div>
+        </div>
+      </div>
+    </header>
+
+    <!-- ABOUT -->
+    <section id="about" class="section">
+      <div class="container">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-grid">
+          <div class="card">
+            <p>I'm a Computer Science student passionate about software development, database systems, and web technologies. I love turning ideas into real, usable products, especially solutions that serve African communities.</p>
+            <p>Currently final year student in Diploma in Computer Science, sharpening my skills in Java, Spring Boot, SQL and modern web stacks. Work best when learning by building.</p>
+            <p>Seeking an internship to apply technical knowledge in real-world projects while gaining industry experience. Eager to learn and contribute to impactful IT solutions. </p>
+          </div>
+          <div class="stats">
+
+          <div class="stat">
+              <span class="num project-count" data-count="0">0</span>
+              <span>Projects Built</span>
+          </div>
+
+
+          <div class="stat">
+              <span class="num tech-count" data-count="0">0</span>
+              <span>Technologies Used</span>
+          </div>
+
+          <div class="stat">
+              <span class="num years-count" data-count="0">0</span>
+              <span>Years Learning</span>
+          </div>
+
+      </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section alt">
+      <div class="container">
+        <h2 class="section-title">Skills & Tools</h2>
+        <div class="skills-grid">
+          <div class="card skill"><h3>Programming</h3><p>Java, JavaScript, HTML, CSS, SQL</p></div>
+          <div class="card skill"><h3>Frameworks</h3><p>Spring Boot</p></div>
+          <div class="card skill"><h3>Databases</h3><p>MySQL, Apache Derby</p></div>
+          <div class="card skill"><h3>Tools</h3><p>Git, GitHub, IntelliJ IDEA, VS Code, NetBeans, Notepad++</p></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section">
+      <div class="container">
+        <h2 class="section-title">Projects</h2>
+        <div class="projects-grid">
+          <article class="card project">
+            <h3>Student Performance Early Warning System (SPEWS)</h3>
+            <p>
+            Designed and developed a full-stack academic monitoring system focused on preventing student probation and academic exclusion through early risk detection.</p>
+            <div class="tags"><span>Java</span><span>HTML</span><span>CSS</span><span>JavaScript</span><span>Spring Boot</span><span>MySQL Database</span></div>
+          </article>
+        
+          <article class="card project">
+            <h3>MY CV WEBSITE</h3>
+            <a style="color: red;" href="#s">View CV Website</a>
+            <p>
+              
+              Buit a resposive portfolio website featuring project showcases,
+              professional experience, downloadable CV functionlity, contact forms,
+              and interactive user interface components using HTML, CSS and JavaScript.
+            </p>
+            <div class="tags"><span>HTML</span><span>CSS</span><span>JS</span></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- EDUCATION -->
+    <section id="education" class="section alt">
+      <div class="container">
+        <h2 class="section-title">Education</h2>
+        <div class="timeline">
+          <div class="t-item">
+            <div class="t-dot"></div>
+            <div class="card">
+              <div class="t-head">
+                <h3>Diploma in Computer Science</h3>
+                <span class="muted">2023 — Present</span>
+              </div>
+              <p>Key modules: <br>Object-Oriented Programming, Software Engineering Fundamentals, Internet Programming, Mobile Computing, Software Project, Database Programming.</p>
+            </div>
+          </div>
+          <div class="t-item">
+            <div class="t-dot"></div>
+            <div class="card">
+              <div class="t-head">
+                <h3>Matriculation</h3>
+                <span class="muted">Completed</span>
+              </div>
+              <p>matric</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+   
+
+    <!-- CONTACT -->
+    <section id="contact" class="section alt">
+      <div class="container contact-wrap">
+        <h2 class="section-title">Get In Touch</h2>
+        <p class="muted center">Open to internships, collaborations and learning opportunities.</p>
+        <form id="contactForm" class="card form" novalidate>
+        <label>
+          Name
+          <input type="text" name="name" required minlength="2">
+        </label>
+
+        <label>
+          Email
+          <input type="email" name="email" required>
+        </label>
+
+        <label>
+          Message
+          <textarea name="message" rows="5" required minlength="10"></textarea>
+        </label>
+
+        <button type="submit" class="btn btn-primary">
+            Send Message
+        </button>
+      </form>
+        <div class="contact-links">
+
+          <a href="tel:0722617783">
+              <i class="fas fa-phone"></i>
+              072 261 7783
+          </a>
+
+          <a href="https://wa.me/27722617783" target="_blank">
+              <i class="fab fa-whatsapp"></i>
+              WhatsApp
+          </a>
+
+          <a href="mailto:serumulaselelo03@gmail.com">
+              <i class="fas fa-envelope"></i>
+              Email
+          </a>
+
+          <a href="https://github.com/selelo99" target="_blank" rel="noopener">
+              <i class="fab fa-github"></i>
+              GitHub
+          </a>
+
+          <a href="https://linkedin.com/in/selelo99" target="_blank" rel="noopener">
+              <i class="fab fa-linkedin"></i>
+              LinkedIn
+          </a>
+
+          <a href="https://maps.google.com/?q=eMalahleni,Mpumalanga,South Africa" target="_blank">
+              <i class="fas fa-location-dot"></i>
+              eMalahleni, Mpumalanga
+          </a>
+
+      </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container foot">
+        <p>© <span id="year"></span> Selelo Serumula Portfolio Site. Built with HTML, CSS &amp; JavaScript.</p>
+      </div>
+    </footer>
+
+    <div id="toast" class="toast"></div>
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script>emailjs.init("PFMrfx-8fkNjP98Qc");</script>
+    <script src="script.js"></script>
+  </body>
+</html>
